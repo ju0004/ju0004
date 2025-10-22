@@ -150,16 +150,13 @@ README 템플릿 안내
 ---
 
 ## 📊 GitHub Stats
-![overview](https://raw.githubusercontent.com/ju0004/ju0004/main/generated/overview.svg)
-![languages](https://raw.githubusercontent.com/ju0004/ju0004/main/generated/languages.svg)
+![stats](https://github-readme-stats.vercel.app/api?username=ju0004&show_icons=true&count_private=true&theme=tokyonight)
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ju0004&layout=compact&theme=tokyonight)
 
 ---
 
 ## 🌱 잔디 현황
-
-<p align="left">
-  <img src="https://ghchart.rshah.org/0F766E/<USERNAME>" alt="GitHub Contributions" />
-</p>
+![GitHub Contributions](https://ghchart.rshah.org/0F766E/ju0004)
 
 ---
 
