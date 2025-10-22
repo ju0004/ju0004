@@ -79,7 +79,6 @@ README 템플릿 안내
 - 👗 **kkokkaot** — 실시간 의류 인식 & 개인화 코디 추천 AI  
   - Repo: https://github.com/Afraid-Not/kkokkaot  
   - My commits: https://github.com/Afraid-Not/kkokkaot/commits?author=ju0004
-  - Stack: FastAPI · PostgreSQL · YOLO · SAM2 · React Native(Expo)
 - ✍️ **keystroke-auth** — 필기/입력 패턴 기반 사용자 인증 (시계열 특징 + ML/딥러닝)
   - https://github.com/ju0004/proj-keystroke-auth
 
