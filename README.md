@@ -49,15 +49,15 @@ README 템플릿 안내
 
 ### Competitions
 - 🔬 **thyroid-cancer-classification** — 갑상선암 진단 분류 (이진/다중 분류 파이프라인, 성능·해석·서빙)
-  - https://github.com/ju0004/thyroid-cancer-classification
+  - https://github.com/ju0004/comp-thyroid-cancer-classification
 - 💊 **boostup-drug-discovery** — 신약 개발 회귀/분류, RDKit 특성 + GBDT/Stacking
-  - https://github.com/ju0004/boostup-drug-discovery
+  - https://github.com/ju0004/comp-boostup-drug-discovery
 - ⚛️ **quantum-ai-factory** — CNN+QNN 하이브리드, 파라미터·깊이 제약 대응
-  - https://github.com/ju0004/quantum-ai-factory
+  - https://github.com/ju0004/comp-quantum-ai-factory
 - 📈 **dongwon-kaist-forecast** — 페르소나 기반 월별 수요예측 (LLM+LightGBM 하이브리드)
-  - https://github.com/ju0004/dongwon-kaist-forecast
+  - https://github.com/ju0004/comp-dongwon-kaist-forecast
 - 🤖 **jumpai-2025** — ASK1 IC50 등 예측, 스태킹 및 튜닝
-  - https://github.com/ju0004/jumpai-2025
+  - https://github.com/ju0004/comp-jumpai-2025
 
 ### Papers — “읽고 끝”이 아니라 **구현**까지
 - 🧩 **two-stage-detectors** (R-CNN → Faster/Mask R-CNN, RoIAlign 실험)
@@ -77,9 +77,9 @@ README 템플릿 안내
 
 ### Projects
 - 👗 **kkokkaot** — 실시간 의류 인식 & 개인화 코디 추천 AI (YOLO · Mask R-CNN/SAM2 · FastAPI · PostgreSQL · Expo)
-  - https://github.com/ju0004/kkokkaot
+  - https://github.com/ju0004/proj-kkokkaot
 - ✍️ **keystroke-auth** — 필기/입력 패턴 기반 사용자 인증 (시계열 특징 + ML/딥러닝)
-  - https://github.com/ju0004/keystroke-auth
+  - https://github.com/ju0004/proj-keystroke-auth
 
 ---
 
