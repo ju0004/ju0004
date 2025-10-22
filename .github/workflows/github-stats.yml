@@ -2,29 +2,36 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    # UTC 00:00, 12:00에 실행 (KST 기준 오전 9시 / 오후 9시)
+    # UTC 00:00, 12:00 (KST 09:00, 21:00)
     - cron: '0 0,12 * * *'
-  workflow_dispatch: {}  # 수동 실행 버튼
+  workflow_dispatch: {}
 
+# ▶ 액션이 repo에 SVG를 '커밋'할 수 있도록 권한 부여
 permissions:
-  contents: write  # generated/*.svg 커밋 권한
+  contents: write
+  actions: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1) 반드시 깃 이력까지 checkout (자동 커밋 에러 예방)
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
+      # 2) 통계 SVG 생성 + 자동 커밋 (이 단계에서 대부분 끝남)
       - name: Generate Stats
         uses: jstrieb/github-stats@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          timezone: Asia/Seoul  # 통계에 표시되는 날짜/시간대를 KST로
+          timezone: Asia/Seoul
 
-      - name: Commit & Push
+      # 3) (보강용) 변경사항이 남아있으면 커밋/푸시
+      - name: Commit & Push (fallback)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "update stats" || echo "no changes"
+          git diff --staged --quiet || git commit -m "update stats"
           git push
