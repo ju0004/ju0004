@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f29c9c,100:b5c0f7&height=180&text=Welcome%20to%20Jiyu's%20GitHub!&animation=scaleIn&fontColor=000000&fontSize=60" />
     </div>
