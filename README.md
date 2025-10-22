@@ -6,11 +6,15 @@ README 템플릿 안내
 -->
 
 <!-- 헤더 배너(원하면 삭제) -->
-<p align="center">
+<!-- <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:0F766E&height=120&text=Jiyu%20(지유)&fontColor=fff&fontSize=40&desc=AI%20%26%20Backend%20Engineer%20in%20the%20Making&descAlignY=75" alt="header"/>
-</p>
+</p> -->
 
-<h1 align="center">🚀 성장 가능성이 무궁무진한 AI & 백엔드 개발자, 지유</h1>
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f29c9c,100:b5c0f7&height=180&text=Welcome%20to%20Jiyu's%20GitHub!&animation=scaleIn&fontColor=000000&fontSize=60" />
+    </div>
+
+<h1 align="center">🚀 성장 가능성이 무궁무진한 AI & 백엔드 개발자</h1>
 <p align="center">
   문제를 정의하고, 데이터로 해석하고, 제품으로 연결합니다.<br/>
   <b>AI 모델링</b>과 <b>백엔드 엔지니어링</b>을 한 몸처럼 다루며, 빠르게 만들고 정확히 검증합니다.
@@ -25,15 +29,18 @@ README 템플릿 안내
 ---
 
 ## 🏆 해커톤 & 대회 성적
+
 > 객관적인 지표로 증명된 문제 해결력
 
-- **갑상선암 진단 분류 (Dacon)** — **39 / 986**
-- **Boost Up 신약 개발 경진대회 (Dacon)** — **88 / 1290**
-- **퀀텀 AI 경진대회 (AI Factory)** — **21 / 242 · 예선 진출**
-- **2025 동원 × KAIST AI Competition (Dacon)** — **14 / 674 · 예선 진출**
-- **Jump AI 2025 (Dacon)** — **62 / 1133**
+| 대회 | 플랫폼 | 성적(순위/참가) | 기간 | 기술 스택 |
+|:--|:--:|:--:|:--:|:--|
+| **갑상선암 진단 분류** | ![Platform: Dacon](https://img.shields.io/badge/Platform-Dacon-0F766E?style=flat-square) | **39 / 986** | **2025.05.07 ~ 2025.06.30** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&style=flat-square&logoColor=fff) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&style=flat-square&logoColor=fff) ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E00?style=flat-square) ![LightGBM](https://img.shields.io/badge/LightGBM-017B56?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-000000?style=flat-square) ![SMOTE](https://img.shields.io/badge/SMOTE-6A5ACD?style=flat-square) |
+| **Boost Up 신약 개발 경진대회** | ![Platform: Dacon](https://img.shields.io/badge/Platform-Dacon-0F766E?style=flat-square) | **88 / 1290** | **2025.06.23 ~ 2025.07.31** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&style=flat-square&logoColor=fff) ![RDKit](https://img.shields.io/badge/RDKit-4DABCF?style=flat-square) ![LightGBM](https://img.shields.io/badge/LightGBM-017B56?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E00?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-000000?style=flat-square) ![Optuna](https://img.shields.io/badge/Optuna-6A5ACD?style=flat-square) |
+| **퀀텀 AI 경진대회** | ![Platform: AIFactory](https://img.shields.io/badge/Platform-AI%20Factory-334155?style=flat-square) | **21 / 242** | **2025.07.10 ~ 2025.08.05** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&style=flat-square&logoColor=fff) ![PennyLane](https://img.shields.io/badge/PennyLane-000000?style=flat-square) ![CNN+QNN](https://img.shields.io/badge/CNN%2BQNN-0F766E?style=flat-square) ![TTA](https://img.shields.io/badge/TTA-64748B?style=flat-square) ![SoftF1Loss](https://img.shields.io/badge/SoftF1Loss-1F2937?style=flat-square) |
+| **2025 동원 × KAIST AI Competition** | ![Platform: Dacon](https://img.shields.io/badge/Platform-Dacon-0F766E?style=flat-square) | **14 / 674** | **2025.08.11 ~ 2025.09.01** | ![LLM](https://img.shields.io/badge/LLM%20Persona-9333EA?style=flat-square) ![Prompt Eng.](https://img.shields.io/badge/Prompt%20Engineering-6D28D9?style=flat-square) ![LightGBM](https://img.shields.io/badge/LightGBM-017B56?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square) ![sMAPE](https://img.shields.io/badge/sMAPE-0EA5E9?style=flat-square) |
+| **Jump AI 2025** | ![Platform: Dacon](https://img.shields.io/badge/Platform-Dacon-0F766E?style=flat-square) | **62 / 1133** | **2025.07.07 ~ 2025.08.25** | ![RDKit](https://img.shields.io/badge/RDKit-4DABCF?style=flat-square) ![ECFP4/MACCS](https://img.shields.io/badge/ECFP4%2FMACCS-0F766E?style=flat-square) ![Stacking](https://img.shields.io/badge/Stacking-4338CA?style=flat-square) ![LightGBM](https://img.shields.io/badge/LightGBM-017B56?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E00?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-000000?style=flat-square) ![Optuna](https://img.shields.io/badge/Optuna-6A5ACD?style=flat-square) |
 
-> 리포지토리 정리: [🏅-competitions](https://github.com/<USERNAME>/competitions) (요약·코드·리더보드·리포트)
+> 리포지토리 모아보기: **[🏅 competitions](https://github.com/<USERNAME>/competitions)** (요약 · 코드 · 리더보드 · 리포트)
 
 ---
 
