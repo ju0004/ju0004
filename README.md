@@ -49,37 +49,37 @@ README 템플릿 안내
 
 ### Competitions
 - 🔬 **thyroid-cancer-classification** — 갑상선암 진단 분류 (이진/다중 분류 파이프라인, 성능·해석·서빙)
-  - https://github.com/<USERNAME>/thyroid-cancer-classification
+  - https://github.com/ju0004/thyroid-cancer-classification
 - 💊 **boostup-drug-discovery** — 신약 개발 회귀/분류, RDKit 특성 + GBDT/Stacking
-  - https://github.com/<USERNAME>/boostup-drug-discovery
+  - https://github.com/ju0004/boostup-drug-discovery
 - ⚛️ **quantum-ai-factory** — CNN+QNN 하이브리드, 파라미터·깊이 제약 대응
-  - https://github.com/<USERNAME>/quantum-ai-factory
+  - https://github.com/ju0004/quantum-ai-factory
 - 📈 **dongwon-kaist-forecast** — 페르소나 기반 월별 수요예측 (LLM+LightGBM 하이브리드)
-  - https://github.com/<USERNAME>/dongwon-kaist-forecast
+  - https://github.com/ju0004/dongwon-kaist-forecast
 - 🤖 **jumpai-2025** — ASK1 IC50 등 예측, 스태킹 및 튜닝
-  - https://github.com/<USERNAME>/jumpai-2025
+  - https://github.com/ju0004/jumpai-2025
 
 ### Papers — “읽고 끝”이 아니라 **구현**까지
 - 🧩 **two-stage-detectors** (R-CNN → Faster/Mask R-CNN, RoIAlign 실험)
-  - https://github.com/<USERNAME>/paper-impl-two-stage
+  - https://github.com/ju0004/paper-impl-two-stage
 - ⚡ **yolo-family** (YOLOv5/7/11/Seg 비교, mAP/FPS 벤치)
-  - https://github.com/<USERNAME>/paper-impl-yolo
+  - https://github.com/ju0004/paper-impl-yolo
 - 🌫️ **diffusion-models** (DDPM/DDIM, 조건부 생성 실험)
-  - https://github.com/<USERNAME>/paper-impl-diffusion
+  - https://github.com/ju0004/paper-impl-diffusion
 - 🔭 **vision-transformer** + **swin-transformer** (전이학습/미세조정)
-  - https://github.com/<USERNAME>/paper-impl-vit-swin
+  - https://github.com/ju0004/paper-impl-vit-swin
 - ✂️ **segment-anything-2 (SAM2)** (패션 아이템 컷아웃 파이프라인)
-  - https://github.com/<USERNAME>/paper-impl-sam2
+  - https://github.com/ju0004/paper-impl-sam2
 - 🔗 **transformer-from-scratch** (Attention 메커니즘 재현)
-  - https://github.com/<USERNAME>/paper-impl-transformer
+  - https://github.com/ju0004/paper-impl-transformer
 - 🗣️ **bert-gpt-nlp** (분류·질의응답·요약, 프롬프트 엔지니어링)
-  - https://github.com/<USERNAME>/paper-impl-bert-gpt
+  - https://github.com/ju0004/paper-impl-bert-gpt
 
 ### Projects
 - 👗 **kkokkaot** — 실시간 의류 인식 & 개인화 코디 추천 AI (YOLO · Mask R-CNN/SAM2 · FastAPI · PostgreSQL · Expo)
-  - https://github.com/<USERNAME>/kkokkaot
+  - https://github.com/ju0004/kkokkaot
 - ✍️ **keystroke-auth** — 필기/입력 패턴 기반 사용자 인증 (시계열 특징 + ML/딥러닝)
-  - https://github.com/<USERNAME>/keystroke-auth
+  - https://github.com/ju0004/keystroke-auth
 
 ---
 
