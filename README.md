@@ -150,15 +150,8 @@ README 템플릿 안내
 ---
 
 ## 📊 GitHub Stats
-
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=<USERNAME>&show_icons=true&count_private=true&hide_title=true&theme=tokyonight" alt="stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<USERNAME>&layout=compact&theme=tokyonight&hide_title=true" alt="langs"/>
-</p>
-
-<p align="left">
-  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=<USERNAME>&theme=tokyonight" alt="summary"/>
-</p>
+![overview](https://raw.githubusercontent.com/ju0004/ju0004/main/generated/overview.svg)
+![languages](https://raw.githubusercontent.com/ju0004/ju0004/main/generated/languages.svg)
 
 ---
 
