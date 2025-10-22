@@ -1,16 +1,26 @@
 name: Generate GitHub Stats
+
 on:
   schedule:
-    - cron: "0 */12 * * *"   # 12시간마다 갱신
-  workflow_dispatch: {}       # 수동 실행 버튼
+    # UTC 00:00, 12:00에 실행 (KST 기준 오전 9시 / 오후 9시)
+    - cron: '0 0,12 * * *'
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write  # generated/*.svg 커밋 권한
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jstrieb/github-stats@v4
+
+      - name: Generate Stats
+        uses: jstrieb/github-stats@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          timezone: Asia/Seoul  # 통계에 표시되는 날짜/시간대를 KST로
+
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
