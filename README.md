@@ -135,7 +135,7 @@ README 템플릿 안내
 - **프론트엔드**: React Native(Expo Router), 모바일 프로토타입/배포  
 - **MLOps 기초**: 데이터 버전관리, 스크립트화, 태스크 러너, 간단 CI
 
-> 실습 레포 모음: [bootcamp-labs](https://github.com/<USERNAME>/bootcamp-labs)
+> 실습 레포 모음: [bootcamp-labs](https://github.com/ju0004/lab-bootcamp-labs)
 
 <details>
 <summary>📂 커리큘럼별 정리(펼치기)</summary>
